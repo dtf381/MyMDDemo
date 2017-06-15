@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!--
+ @autor jason
+ Github：https://github.com/opengit-->
+
+<resources>
+
+  <string-array name="tab_titles">
+    <item>垂直List</item>
+    <item>水平List</item>
+    <item>垂直Grid</item>
+    <item>水平Grid</item>
+    <item>瀑布Staggered</item>
+  </string-array>
+
+  <string-array name="main_list">
+    <item>RecycleaView</item>
+    <item>snowflake下雪</item>
+    <item>气泡上升</item>
+    <item>水波涟漪1</item>
+    <item>水波涟漪2</item>
+    <item>高斯模糊1</item>
+    <item>自定义图片遮罩</item>
+    <item>图片遮罩</item>
+    <item>图片遮罩带阴影</item>
+    <item>自定义dialog和progressBar</item>
+    <item>TinderCard图册特效</item>
+    <item>仿微信侧滑退出activity</item>
+    <item>ScrollView_ListView等上下拉弹性效果，以及上下拉刷新</item>
+    <item>蓝牙</item>
+    <item>模拟点击</item>
+    <item>图文混排</item>
+    <item>DataBinding数据绑定框架</item>
+    <item>RxJava_RxAndroid</item>
+    <item>高亮功能引导页面</item>
+    <item>手机发送邮件，电话手机，短信拦截，发送，</item>
+    <item>Material_Design/材料设计</item>
+    <item>okHttp3.6</item>
+  </string-array>
+
+  <string-array name="list_content">
+    <item> "Lorem ipsum dolor sit amet, </item>
+    <item>consectetur adipiscing elit. Sed rutrum, </item>
+    <item>ligula eu fringilla condimentum, </item>
+    <item>lorem augue varius odio, vel sagittis neque nibh porttitor dui. </item>
+    <item>In hac habitasse platea dictumst. </item>
+    <item>Duis a est ultricies, accumsan mi a, </item>
+    <item>pulvinar felis. </item>
+    <item>In hac habitasse platea dictumst. </item>
+    <item>Nullam at accumsan neque, ut dignissim neque. </item>
+    <item>Vivamus suscipit arcu sit amet dignissim feugiat. </item>
+    <item>Sed fringilla metus at ultricies tempus. </item>
+    <item>pulvinar felis. </item>
+    <item>In hac habitasse platea dictumst. </item>
+    <item>Nullam at accumsan neque, ut dignissim neque. </item>
+    <item>Vivamus suscipit arcu sit amet dignissim feugiat. </item>
+    <item>Sed fringilla metus at ultricies tempus. </item>
+    <item>pulvinar felis. </item>
+    <item>In hac habitasse platea dictumst. </item>
+    <item>Nullam at accumsan neque, ut dignissim neque. </item>
+    <item>Vivamus suscipit arcu sit amet dignissim feugiat. </item>
+    <item>Sed fringilla metus at ultricies tempus. </item>
+    <item>pulvinar felis. </item>
+    <item>In hac habitasse platea dictumst. </item>
+    <item>Nullam at accumsan neque, ut dignissim neque. </item>
+    <item>Vivamus suscipit arcu sit amet dignissim feugiat. </item>
+    <item>Sed fringilla metus at ultricies tempus. </item>
+    <item>In lobortis, sem vel rhoncus hendrerit, odio diam rutrum ipsum, ut varius lorem dui at mauris. </item>
+    <item>Vestibulum lobortis et quam non convallis. Phasellus viverra porta nisl, eu luctus erat tincidunt et. </item>
+    <item>Maecenas ac lorem dapibus, dictum turpis quis, blandit mi." </item>
+  </string-array>
+
+  <declare-styleable name="CardStack">
+    <attr name="backgroundColor" format="color"/>
+    <attr name="stackMargin" format="integer" />
+  </declare-styleable>
+</resources>
