@@ -34,6 +34,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.TextView;
 
 import com.sunjiajia.alldemo.adapter.MyViewPagerAdapter;
@@ -69,6 +70,7 @@ public class MyActivity extends AppCompatActivity
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_my);
+//    requestWindowFeature(Window.FEATURE_NO_TITLE);
 
     // 初始化各种控件
     initViews();

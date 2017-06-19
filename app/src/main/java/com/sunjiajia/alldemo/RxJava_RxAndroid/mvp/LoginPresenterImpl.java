@@ -1,5 +1,7 @@
 package com.sunjiajia.alldemo.RxJava_RxAndroid.mvp;
 
+import android.support.v4.util.LruCache;
+
 /**
  * Created by mk on 2017/6/16.
  * Class note:

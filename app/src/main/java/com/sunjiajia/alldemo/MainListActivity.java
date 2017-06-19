@@ -8,6 +8,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.sunjiajia.alldemo.Bluetooth.BluetoothActivity;
+import com.sunjiajia.alldemo.RxJava_RxAndroid.RxList;
 import com.sunjiajia.alldemo.SrcollView_Refresh.ScrollVieRefreshList;
 import com.sunjiajia.alldemo.blur.BlurMainActivity;
 import com.sunjiajia.alldemo.bubble.BubbleActivity;
@@ -103,6 +104,7 @@ public class MainListActivity extends ListActivity {
                 startActivity(DatabindingList.class);
                 break;
             case 17://RxJava_RxAndroid
+                startActivity(RxList.class);
                 break;
             case 18://高亮功能引导页面
                 startActivity(HighMainActivity.class);

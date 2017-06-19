@@ -78,6 +78,6 @@ dependencies {
   compile files('libs/okio-1.11.0.jar')
   compile files('libs/gson-2.2.4.jar')
   //Retrofit
-  compile 'com.squareup.retrofit2:retrofit:2.0.2'
-  compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+//  compile 'com.squareup.retrofit2:retrofit:2.0.2'
+//  compile 'com.squareup.retrofit2:converter-gson:2.0.2'
 }

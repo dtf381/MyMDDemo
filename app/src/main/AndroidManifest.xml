@@ -37,7 +37,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.Design.NoActionBar">
         <meta-data
             android:name="TINKER_ID"
             android:value="tinker_id_6235657" />
@@ -98,7 +98,11 @@
         <activity android:name="com.sunjiajia.alldemo.material_design.DesignList"></activity>
         <activity android:name="com.sunjiajia.alldemo.material_design.TextInputEditText"></activity>
         <activity android:name="com.sunjiajia.alldemo.material_design.CoordinatorLayout_AppBarLayout_CollapsingToolbarLayout"></activity>
+        <activity android:name="com.sunjiajia.alldemo.material_design.MdThree"></activity>
         <activity android:name="com.sunjiajia.alldemo.okHttpList.OkHttpList"></activity>
+        <activity android:name="com.sunjiajia.alldemo.RxJava_RxAndroid.RxList"></activity>
+        <activity android:name="com.sunjiajia.alldemo.RxJava_RxAndroid.mvp.LoginActivity"></activity>
+
 
 
         <service

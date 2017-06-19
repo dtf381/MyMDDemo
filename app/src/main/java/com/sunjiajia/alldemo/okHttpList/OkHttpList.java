@@ -133,12 +133,12 @@ public class OkHttpList extends AppCompatActivity {
     //同样的，框架中只是提供了几个实现类，你可以自行实现SSLSocketFactory，传入sslSocketFactory即可。
     private void initOKHttps() {
 //设置可访问所有的https网站
-        HttpsUtils.SSLParams sslParams = HttpsUtils.getSslSocketFactory(null, null, null);
+   /*     HttpsUtils.SSLParams sslParams = HttpsUtils.getSslSocketFactory(null, null, null);
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .sslSocketFactory(sslParams.sSLSocketFactory, sslParams.trustManager)
                 //其他配置
                 .build();
-        OkHttpUtils.initClient(okHttpClient);
+        OkHttpUtils.initClient(okHttpClient);*/
 
         /*//设置具体的证书
         HttpsUtils.SSLParams sslParams1 = HttpsUtils.getSslSocketFactory("证书的inputstream",null,null);
@@ -288,16 +288,17 @@ public class OkHttpList extends AppCompatActivity {
 
     //HEAD,DELETE,PUT,PATCH
     //如果需要requestBody，例如：PUT、PATCH，自行构造进行传入。
-    private void headPUT(){
+    private void headPUT() {
        /* OkHttpUtils
                 .put()
                 .requestBody(RequestBody.create(null,"may be something"))
                 .build()
                 .execute(new MyStringCallback());*/
     }
+
     //同步的请求
     //execute方法不传入callback即为同步的请求，返回Response。
-    private void synchronizedOkHttp(String url){
+    private void synchronizedOkHttp(String url) {
        /* Response response = OkHttpUtils
                 .get()//
                 .url(url)//
@@ -305,13 +306,15 @@ public class OkHttpList extends AppCompatActivity {
                 .build()//
                 .execute();*/
     }
+
     //取消单个请求
-    private void cancelOneRequest(String url){
+    private void cancelOneRequest(String url) {
         RequestCall call = OkHttpUtils.get().url(url).build();
         call.cancel();
     }
+
     //混淆
-    private void hunxiaoOkHttp(){
+    private void hunxiaoOkHttp() {
      /*   #okhttputils
                 -dontwarn com.zhy.http.**
         -keep class com.zhy.http.**{*;}
@@ -322,11 +325,12 @@ public class OkHttpList extends AppCompatActivity {
                 -dontwarn okio.**
         -keep class okio.**{*;}*/
     }
+
     //根据tag取消请求
     //目前对于支持的方法都添加了最后一个参数Object tag，取消则通过OkHttpUtils.cancelTag(tag)执行。
     //例如：在Activity中，当Activity销毁取消请求：
     //比如，当前Activity页面所有的请求以Activity对象作为tag，可以在onDestory里面统一取消。
-    private void CancelToTag(String url){
+    private void CancelToTag(String url) {
        /* OkHttpUtils
                 .get()//
                 .url(url)//

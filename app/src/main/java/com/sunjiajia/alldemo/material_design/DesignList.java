@@ -15,7 +15,8 @@ import android.widget.ListView;
 
 public class DesignList extends ListActivity {
 
-    private String[] strArray = new String[]{"TextInputEditText","CoordinatorLayoutAppBarLayoutCollapsingToolbarLayout"};
+    private String[] strArray = new String[]{"TextInputEditText","CoordinatorLayoutAppBarLayoutCollapsingToolbarLayout"
+    ,"MDThree"};
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -35,6 +36,9 @@ public class DesignList extends ListActivity {
                 startActivity(CoordinatorLayout_AppBarLayout_CollapsingToolbarLayout.class);
                 break;
             case 2:
+                startActivity(MdThree.class);
+                break;
+            case 3:
                 break;
         }
     }
